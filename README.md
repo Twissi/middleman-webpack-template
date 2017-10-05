@@ -1,6 +1,6 @@
 # Middleman - Webpack template
 
-Starting point for Middleman projects that want to use [Webpack](https://webpack.github.io) to build their js files.
+Starting point for Middleman projects that use [Webpack](https://webpack.github.io) to build js files.
 
 ## Handled by Middleman
 
