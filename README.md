@@ -1,17 +1,15 @@
 # Middleman - Webpack template
 
-Starting point for Middleman projects that want to use (Webpack)[https://webpack.github.io] to build their assets.
+Starting point for Middleman projects that want to use [Webpack](https://webpack.github.io) to build their js files.
 
-In this example images are not managed by Webpack.
-
-## Handled by Middleman:
+## Handled by Middleman
 
 * preprocess SASS
 * vendor-prefix CSS
 * minify CSS files (during build)
 * add hash for cache burst (during build)
 
-## Handled by Webpack:
+## Handled by Webpack
 
 * polyfill JS files with babel (only includes the polyfills and code transforms needed for the last two versions of each browser, and versions of Safari greater than or equal to 7)
 * uglify JS files (during build)
